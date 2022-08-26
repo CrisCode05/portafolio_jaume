@@ -1,0 +1,40 @@
+.review{
+    padding-block-start: 80px;
+    padding-block-end:80px ;
+}
+
+.review-content{
+    background-color:rgba(255, 255, 255, 0.205);
+    border-radius:24px;
+    box-shadow: 4px 4px 5px var(--white) inset;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review-description{
+    font: var(--oxygen);
+}
+
+.review-author{
+    font: var(--caption);
+    color: var(--purple);
+    opacity: 0.5;
+}
+
+@media screen and (min-width:768px) {
+
+    .review-content{
+        display: block;
+        text-align: center;
+    }
+    .review-description{
+        font: var(--headline4);
+    }
+    
+    .review-author{
+        font: var(--headline5);
+    }
+}
+
